@@ -49,9 +49,9 @@ BUCKET URL
 
 Example file URLs:
     
-•	https://my-example-bucket-123.s3.amazonaws.com/example.txt
+•	https://bharathp5.s3.eu-north-1.amazonaws.com/CLOUD+COMPUTING.pdf
 
-•	https://my-example-bucket-123.s3.amazonaws.com/image.jpg
+•	https://bharathp5.s3.eu-north-1.amazonaws.com/Internship+offer.jpg
 
 
 OUTPUT:

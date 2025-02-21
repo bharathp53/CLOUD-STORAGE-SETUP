@@ -15,14 +15,10 @@ MENTOR : NEELA SANTOSH
 DESCRIPTION:
 
 AWS S3 CLOUD STORAGE SETUP
+
 This repository documents the steps to create and configure a cloud storage bucket using Amazon S3 (Simple Storage Service). The setup includes creating a bucket, uploading example files, and configuring access permissions.
-________________________________________
+
 STEPS TO SET UP AWS S3 BUCKET
-
-
-Steps to Set Up AWS S3 Bucket
-
-Steps to Set Up AWS S3 Bucket
 
 
 OUTPUT:

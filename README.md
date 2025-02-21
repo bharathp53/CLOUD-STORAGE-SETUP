@@ -50,6 +50,7 @@ BUCKET URL
 Example file URLs:
     
 •	https://my-example-bucket-123.s3.amazonaws.com/example.txt
+
 •	https://my-example-bucket-123.s3.amazonaws.com/image.jpg
 
 

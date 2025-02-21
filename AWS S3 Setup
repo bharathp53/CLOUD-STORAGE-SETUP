@@ -1,34 +1,37 @@
+To set up cloud storage on AWS, follow the steps below.
+This guide will walk you through creating a bucket, uploading example files, and configuring access permissions.
+
+
 Step 1: Create an S3 Bucket
-    Log in to the AWS Management Console.
+    1. Log in to the AWS Management Console.
 
-    Navigate to S3 under the Storage section.
+    2. Navigate to S3 under the Storage section.
 
-    Click Create bucket.
+    3. Click Create bucket.
 
-    Enter a unique Bucket name (e.g., my-example-bucket-123).
+    4. Enter a unique Bucket name (e.g., bharathp5).
 
-    Select the Region where you want the bucket to reside.
+    5. Select the Region where you want the bucket to reside.
 
-    Configure additional settings (e.g., versioning, logging) if needed.
+    6. Configure additional settings (e.g., versioning, logging) if needed.
 
-    Click Create bucket.
+    7. Click Create bucket.
 
 Step 2: Upload Example Files
-    Open the newly created bucket.
+    1. Open the newly created bucket.
 
-    Click Upload and select files from your local machine (e.g., example.txt, image.jpg).
+    2. Click Upload and select files from your local machine (e.g., CLOUD COMPUTING.pdf).
 
-    Click Upload to complete the process.
+    3. Click Upload to complete the process.
 
 Step 3: Configure Access Permissions
-    Go to the Permissions tab of your bucket.
+    1. Go to the Permissions tab of your bucket.
 
-    Under Block public access, uncheck the options if you want to make the bucket publicly accessible (use with caution).
+    2. Under Block public access, uncheck the options if you want to make the bucket publicly accessible (use with caution).
 
-    Under Bucket Policy, add a policy to grant access. For example:
+    3. Under Bucket Policy, add a policy to grant access. For example:
 
     json
-    Copy
     {
       "Version": "2012-10-17",
       "Statement": [
@@ -36,15 +39,15 @@ Step 3: Configure Access Permissions
           "Effect": "Allow",
           "Principal": "*",
           "Action": "s3:GetObject",
-          "Resource": "arn:aws:s3:::my-example-bucket-123/*"
+          "Resource": "arn:aws:s3:::bharathp5/*"
         }
       ]
     }
     This policy allows public read access to all objects in the bucket.
 
-    Save the changes.
+    4. Save the changes.
 
 Step 4: Verify Access
-    Open the uploaded file's URL (e.g., https://my-example-bucket-123.s3.amazonaws.com/example.txt).
+    1. Open the uploaded file's URL (e.g., https://bharathp5.s3.eu-north-1.amazonaws.com/CLOUD+COMPUTING.pdf).
 
-    Ensure the file is accessible based on the permissions configured.
+    2. Ensure the file is accessible based on the permissions configured.

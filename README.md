@@ -14,20 +14,27 @@ MENTOR : NEELA SANTOSH
 
 
 
-
 DESCRIPTION:
 
 
 AWS S3 CLOUD STORAGE SETUP
 
-This repository documents the steps to create and configure a cloud storage bucket using Amazon S3 (Simple Storage Service). The setup includes creating a bucket, uploading example files, and configuring access permissions.
+    This repository documents the steps to create and configure a cloud storage bucket using Amazon S3 (Simple Storage Service). The setup includes creating a bucket, uploading example files, and configuring access permissions.
 
-  STEPS TO SET UP AWS S3 BUCKET
+STEPS TO SET UP AWS S3 BUCKET
     
     1. CREATE AN S3 BUCKET
     2. UPLOAD EXAMPLE FILES
     3. CONFIGURE ACCESS PERMISSIONS
     4. VERIFY ACCESS
+
+EXAMPLE FILES UPLOADED
+
+The following example files were uploaded to the S3 bucket:
+ 
+    1. CLOUD COMPUTING.pdf: A sample PDF file.
+    2. Internship offer.jpg: A sample image file.
+
 
 
 

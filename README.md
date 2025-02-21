@@ -13,7 +13,7 @@ DURATION : 4 WEEKS
 MENTOR : NEELA SANTOSH
 
 
-
+____________________________________________________________________________________________________________
 DESCRIPTION:
 
 
@@ -53,6 +53,7 @@ Example file URLs:
 
 •	https://bharathp5.s3.eu-north-1.amazonaws.com/Internship+offer.jpg
 
+_____________________________________________________________________________________________________
 
 OUTPUT:
 

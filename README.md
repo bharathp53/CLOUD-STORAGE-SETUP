@@ -30,7 +30,7 @@ The setup includes creating a bucket, uploading example files, and configuring a
 3. CONFIGURE ACCESS PERMISSIONS
 4. VERIFY ACCESS
 
-i briefly explained in the setup file
+I briefly explained in the setup file
 ## EXAMPLE FILES UPLOADED
 
 The following example files were uploaded to the S3 bucket:
@@ -43,9 +43,9 @@ The following example files were uploaded to the S3 bucket:
 
 The bucket is configured with the following access permissions:
 
-Public Read Access: The bucket policy allows anyone to read (download) the files.
+1. Public Read Access: The bucket policy allows anyone to read (download) the files.
 
-Restricted Write Access: Only the bucket owner can upload or modify files.
+2. Restricted Write Access: Only the bucket owner can upload or modify files.
 
 ## BUCKET URL
 

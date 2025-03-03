@@ -30,31 +30,32 @@ The setup includes creating a bucket, uploading example files, and configuring a
 3. CONFIGURE ACCESS PERMISSIONS
 4. VERIFY ACCESS
 
-EXAMPLE FILES UPLOADED
+i briefly explained in the setup file
+## EXAMPLE FILES UPLOADED
 
 The following example files were uploaded to the S3 bucket:
  
-    1. CLOUD COMPUTING.pdf: A sample PDF file.
-    2. Internship offer.jpg: A sample image file.
+1. CLOUD COMPUTING.pdf: A sample PDF file.
+2. Internship offer.jpg: A sample image file.
 
 
-ACCESS PERMISSIONS
+## ACCESS PERMISSIONS
 
 The bucket is configured with the following access permissions:
 
-    Public Read Access: The bucket policy allows anyone to read (download) the files.
+Public Read Access: The bucket policy allows anyone to read (download) the files.
 
-    Restricted Write Access: Only the bucket owner can upload or modify files.
+Restricted Write Access: Only the bucket owner can upload or modify files.
 
-BUCKET URL
+## BUCKET URL
 
 Example file URLs:
     
-•	https://bharathp5.s3.eu-north-1.amazonaws.com/CLOUD+COMPUTING.pdf
+- https://bharathp5.s3.eu-north-1.amazonaws.com/CLOUD+COMPUTING.pdf
 
-•	https://bharathp5.s3.eu-north-1.amazonaws.com/Internship+offer.jpg
+- https://bharathp5.s3.eu-north-1.amazonaws.com/Internship+offer.jpg
 
-_____________________________________________________________________________________________________
+---
 
 OUTPUT:
 
